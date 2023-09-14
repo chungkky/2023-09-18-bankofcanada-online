@@ -414,7 +414,7 @@ please preview your site before committing, and make sure to run
   you will need access to software as described below.
   In addition, you will need an up-to-date web browser.
 </p>
-<p>If you run into any issues during installation, please contact the helpers listed above.
+<p>If you run into any issues during installation, please contact any of the individuals listed in the Contact section above for help.
 </p>
 {% comment %}
 <p>
