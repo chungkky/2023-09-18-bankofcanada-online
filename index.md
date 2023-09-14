@@ -14,8 +14,8 @@ humantime: "9:00 am - 1:00 pm EDT (1:00 pm - 5:00 pm UTC)"    # human-readable t
 startdate: 2023-09-18      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2023-09-21        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
 instructor: ["Jordan Pedersen", "Kathy Chung", "Simeon Wong"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
-helper: ["Sarah Harvey", "Dylan Spevack-Willcock", "Elizabeth Reid"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
-email: ["sharvey@bank-banque-canada.ca", "DSpevack-Willcock@bank-banque-canada.ca", "jpederse@uoguelph.ca"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
+helper: ["Sarah Harvey", "Dylan Spevack-Willcock", "Elizabeth Smith"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
+email: ["sharvey@bank-banque-canada.ca", "DSpevack-Willcock@bank-banque-canada.ca", "ESmith@bank-banque-canada.ca"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 collaborative_notes: https://pad.carpentries.org/2023-09-18-bankofcanada-online # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document (e.g., https://pad.carpentries.org/2015-01-01-euphoria)
 eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 ---
@@ -402,23 +402,27 @@ please preview your site before committing, and make sure to run
 <h2 id="setup">Setup</h2>
 
 <p>
-  To participate in a
+  To participate in the
   {% if site.carpentry == "swc" %}
   Software Carpentry
   {% elsif site.carpentry == "dc" %}
   Data Carpentry
   {% elsif site.carpentry == "lc" %}
-  Library Carpentry
+  Bank of Canada Library Carpentry
   {% endif %}
   workshop,
   you will need access to software as described below.
   In addition, you will need an up-to-date web browser.
 </p>
+<p>If you run into any issues during installation, please contact the helpers listed above.
+</p>
+{% comment %}
 <p>
   We maintain a list of common issues that occur during installation as a reference for instructors
   that may be useful on the
   <a href = "{{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and-Solutions">Configuration Problems and Solutions wiki page</a>.
 </p>
+{% endcomment%}
 
 {% comment %}
 For online workshops, the section below provides:
